@@ -1,0 +1,14 @@
+.articulos-content{
+    width: 100%;
+    padding: 0px 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    p{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+}

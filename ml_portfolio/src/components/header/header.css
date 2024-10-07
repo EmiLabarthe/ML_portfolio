@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+  
+    .left {
+      font-size: 1.2em;
+    }
+  
+    .right {
+      display: flex;
+      gap: 15px;
+    }
+  
+    .link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em; 
+    }
+    a:hover{
+      color: grey;
+    } 
+  }
