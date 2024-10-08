@@ -10,7 +10,7 @@ const Header: React.FC = () => {
       <div className="right">
         <a href="/" className="link">Inicio</a>
         <a href="/articulos" className="link">Artículos</a>
-        <a href="https://github.com/EmiLabarthe" className="link" target="_blank" rel="noopener noreferrer">My GitHub</a>
+        <a href="https://github.com/EmiLabarthe" className="link" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </nav>
   );

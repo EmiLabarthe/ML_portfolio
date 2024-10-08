@@ -4,6 +4,7 @@ import Header from './components/header';
 import Home from './pages/home';
 import Articulos from './pages/articulos';
 import './App.css'
+import { ComponenteArticulo } from './pages/articulos/componente-articulo';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const AppRoutes: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/articulos" element={<Articulos />} />
+        <Route path="/articulos/:article" element={<ComponenteArticulo />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       </div>
